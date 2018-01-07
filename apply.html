@@ -6,7 +6,7 @@
 <title>Apply | 2D4U</title>
 <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
+<body onload="w3.hide('#chat')">    
 <div id="leftnav">
    <center>
 <h1>Links</h1>
@@ -70,13 +70,16 @@
         <button class="button btn">2DJ4U</button>
       </form>
      <hr>
-      <h2>Return to Home</h2>
-      <form action="/home">
-        <button class="button btn">2D4U</button>
+       <h2>2D4U Logo Info</h2>
+      <form action="https://plug.dj/logo">
+        <button class="button btn">Our Logo</button>
       </form>
      <hr>
+       <h2>Chat</h2>
+       <button class="button btn" onclick="w3.toggleShow('#chat')">Toggle Chat</button>
+     <hr>
     <h2>Join us on Discord!</h2><br>
-    <a href="https://discord.gg/qhhgtXQ"><img src="/images/Discord-Logo-White.png" width="100" height="100"></a>
+    <a href="/discord"><img src="/images/Discord-Logo-White.png" width="100" height="100"></a>
       <hr>
       <h5>Copyright © 2017 2D4U Organization</h5>
       <hr>
@@ -88,5 +91,8 @@
     </form>
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc5n0iXLfhpPwYn_Sor9dr8IDoh3Y3rr8OMQrt_-yRpMdS-Kw/viewform?embedded=true" width="1000" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
   </center>
+  <div class="content1" id="chat">
+  <iframe src="https://titanembeds.com/embed/321865637620350976" height="600" width="800" frameborder="0"></iframe>
+  </div>
 </body>
 </html>
