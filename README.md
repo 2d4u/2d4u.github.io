@@ -1,1 +1,1 @@
-https://2d4u.glitch.me we moved
+http://2d4u.org we moved
